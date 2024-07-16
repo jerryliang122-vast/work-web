@@ -1,0 +1,77 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #f7f7f7;
+}
+
+.register-form {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.register-form h2 {
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 94%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.button-group button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: #5cb85c;
+    cursor: pointer;
+    margin-right: 2%;
+}
+
+.button-group button:last-child {
+    background-color: #f0ad4e;
+}
+.black-bar {
+    background-color: rgb(0, 0, 0); /* 设置背景颜色为黑色 */
+    width: 100%;             /* 长条框宽度占满整个屏幕宽度 */
+    height: 60px;            /* 长条框的高度，根据需要调整 */
+    text-indent: 20px; /* 设置文本的缩进，以实现居中效果 */
+}
+.bar-text{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    /*设置字体上下居中在框中*/
+    line-height: 60px;
+}
+
+@media (max-width: 600px) {
+    .button-group button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
